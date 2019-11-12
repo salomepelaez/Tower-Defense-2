@@ -14,6 +14,7 @@ public class Enemy : MonoBehaviour
     void Create()
     {
         enemy = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+        enemy.GetComponent<Renderer>().material.color = Color.cyan;
         Vector3 pos = new Vector3();
         pos.x = 12.13f;
         pos.y = 0.46f;
