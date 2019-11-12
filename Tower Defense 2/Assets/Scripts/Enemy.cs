@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     Transform target;
-    float speed = 10f;
+    float speed = 5f;
     Vector3 direction;
     int index = 0;
 
@@ -19,10 +19,9 @@ public class Enemy : MonoBehaviour
         direction = Vector3.Normalize(target.transform.position - transform.position);
         transform.position += direction * speed * Time.deltaTime;
 
-        if (Vector3.Distance(target.transform.position - transform.position) <= 0.2f)
+        if (Vector3.Distance(target.transform.position, transform.position) <= 0.2f)
         {
             GetNext();
-            return;
         }
     }
 
@@ -30,5 +29,10 @@ public class Enemy : MonoBehaviour
     {
         index++;
         target = EnemyBehaviour.points[index];
+
+        if(index >= EnemyBehaviour.points.Length - 1)
+        {
+            Destroy(gameObject);
+        }
     }
 }
