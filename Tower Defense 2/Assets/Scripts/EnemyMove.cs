@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class EnemyMove : MonoBehaviour
 {
     Transform target;
     float speed = 5f;
@@ -30,7 +30,7 @@ public class Enemy : MonoBehaviour
         index++;
         target = EnemyBehaviour.points[index];
 
-        if(index >= EnemyBehaviour.points.Length - 1)
+        if (index >= EnemyBehaviour.points.Length - 1)
         {
             Destroy(gameObject);
         }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMove : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     GameObject enemy;
 
@@ -15,10 +15,12 @@ public class EnemyMove : MonoBehaviour
     {
         enemy = GameObject.CreatePrimitive(PrimitiveType.Sphere);
         Vector3 pos = new Vector3();
-        pos.x = 11.93f;
-        pos.y = 1.07f;
-        pos.z = 11.54f;
-
+        pos.x = 12.13f;
+        pos.y = 0.46f;
+        pos.z = 11.87f;
+        enemy.transform.position = pos;
+        
         enemy.AddComponent<EnemyMove>();
     }
+
 }
