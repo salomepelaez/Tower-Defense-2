@@ -2,37 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class EnemyMove : MonoBehaviour
 {
-    Transform target;
-    float speed = 5f;
-    Vector3 direction;
-    int index = 0;
+    GameObject enemy;
 
-    void Start()
+    private void Start()
     {
-        target = EnemyBehaviour.points[0];
+        InvokeRepeating("Create", 1f, 3f);
     }
 
-    void Update()
+    void Create()
     {
-        direction = Vector3.Normalize(target.transform.position - transform.position);
-        transform.position += direction * speed * Time.deltaTime;
+        enemy = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+        Vector3 pos = new Vector3();
+        pos.x = 11.93f;
+        pos.y = 1.07f;
+        pos.z = 11.54f;
 
-        if (Vector3.Distance(target.transform.position, transform.position) <= 0.2f)
-        {
-            GetNext();
-        }
-    }
-
-    void GetNext()
-    {
-        index++;
-        target = EnemyBehaviour.points[index];
-
-        if(index >= EnemyBehaviour.points.Length - 1)
-        {
-            Destroy(gameObject);
-        }
+        enemy.AddComponent<EnemyMove>();
     }
 }
