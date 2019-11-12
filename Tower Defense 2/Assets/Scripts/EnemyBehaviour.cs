@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyBehaviour : MonoBehaviour
 {
-    public Transform[] points;
+    public static Transform[] points;
 
     private void Awake()
     {
