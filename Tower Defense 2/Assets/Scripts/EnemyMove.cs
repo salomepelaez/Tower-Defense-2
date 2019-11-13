@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyMove : MonoBehaviour
 {
     Transform target;
-    float speed = 5f;
+    float speed = 1f;
     Vector3 direction;
     int index = 0;
 

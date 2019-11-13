@@ -2662,7 +2662,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0.53729963, y: 0, z: 0, w: 0.8433915}
-  m_LocalPosition: {x: 3.9, y: 10.9, z: 1.7}
+  m_LocalPosition: {x: 3.9, y: 11.19, z: 2.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4589,6 +4589,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   partToRotate: {fileID: 1666585489}
+  bullet: {fileID: 5587903489134527249, guid: 17160623941eed240893ab3d8b056730, type: 3}
+--- !u!4 &1000526549 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6971544903502382, guid: 15a69cb0d13585b49b5a1c8a6aa5b411,
+    type: 3}
+  m_PrefabInstance: {fileID: 990622062}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1009962431
 GameObject:
   m_ObjectHideFlags: 0
@@ -7377,6 +7384,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 205210879}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1487003637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1487003638}
+  m_Layer: 0
+  m_Name: WeapoHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1487003638
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487003637}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1000526549}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1520434901
 GameObject:

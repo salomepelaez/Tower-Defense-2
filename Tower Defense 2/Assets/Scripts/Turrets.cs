@@ -7,6 +7,9 @@ public class Turrets : MonoBehaviour
     private float range = 5f;
     public Transform target;
     public Transform partToRotate;
+    public GameObject bullet;
+
+    private float bulletSpeed = 100f;
 
     void Update()
     {
@@ -40,10 +43,23 @@ public class Turrets : MonoBehaviour
         if (closest != null && closestDistance < range)
         {
             target = closest.transform;
+            StartCoroutine("Shoot");
         }
 
         else
             target = null;
+    }
+
+    IEnumerator Shoot()
+    {
+        GameObject instBullet = Instantiate(bullet, transform.position, Quaternion.identity) as GameObject;
+        instBullet.AddComponent<Rigidbody>();
+        Rigidbody rigidbody = instBullet.GetComponent<Rigidbody>();
+        rigidbody.AddForce(Vector3.up * bulletSpeed);
+
+        yield return new WaitForSeconds(2f);
+
+        Destroy(instBullet, 1f);        
     }
 
     private void OnDrawGizmosSelected()
