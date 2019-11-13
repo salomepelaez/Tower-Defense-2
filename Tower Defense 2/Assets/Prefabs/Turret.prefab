@@ -27,11 +27,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2873808382465564808}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -0.191, y: 2.0900004, z: 0.008999942}
-  m_LocalScale: {x: 0.4841649, y: 0.13978443, z: 1.2689383}
+  m_LocalPosition: {x: -0.29050538, y: 0.03921972, z: -0.021844523}
+  m_LocalScale: {x: 0.96147704, y: 0.21950297, z: 0.8158513}
   m_Children: []
-  m_Father: {fileID: 5032910562698921323}
-  m_RootOrder: 4
+  m_Father: {fileID: 5137704085016768340}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
 --- !u!33 &2490128231784702103
 MeshFilter:
@@ -118,12 +118,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4189521346464186446}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.017, y: 2.41, z: 0.3808}
-  m_LocalScale: {x: 0.1694318, y: 0.216473, z: 0.24259537}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.03611658, y: 0.24495988, z: 0.71649355}
+  m_LocalScale: {x: 0.26605815, y: 0.42988232, z: 0.15597436}
   m_Children: []
-  m_Father: {fileID: 5032910562698921323}
-  m_RootOrder: 2
+  m_Father: {fileID: 5137704085016768340}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!33 &5973655446998498712
 MeshFilter:
@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 1264409249401572814}
   - component: {fileID: 936091441100278638}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 4661983898308735786}
   - component: {fileID: 8693374607101194158}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Canyon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -305,7 +305,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.006, y: 2.029, z: 0.02}
   m_LocalScale: {x: 0.6368224, y: 1.555355, z: 0.50356364}
-  m_Children: []
+  m_Children:
+  - {fileID: 6971544903502382}
+  - {fileID: 6565777715867693422}
+  - {fileID: 2821332199814329425}
   m_Father: {fileID: 5032910562698921323}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -380,7 +383,7 @@ GameObject:
   - component: {fileID: 8506934447483199545}
   - component: {fileID: 8159291281587134389}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -399,9 +402,6 @@ Transform:
   m_Children:
   - {fileID: 7011822755681311318}
   - {fileID: 5137704085016768340}
-  - {fileID: 6971544903502382}
-  - {fileID: 6565777715867693422}
-  - {fileID: 2821332199814329425}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -490,11 +490,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8194446297656596061}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0.198, y: 2.09, z: 0.009}
-  m_LocalScale: {x: 0.4841649, y: 0.13978443, z: 1.2689383}
+  m_LocalPosition: {x: 0.32034084, y: 0.039219107, z: -0.021844523}
+  m_LocalScale: {x: 0.96147704, y: 0.21950297, z: 0.8158513}
   m_Children: []
-  m_Father: {fileID: 5032910562698921323}
-  m_RootOrder: 3
+  m_Father: {fileID: 5137704085016768340}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
 --- !u!33 &1828139229382984569
 MeshFilter:

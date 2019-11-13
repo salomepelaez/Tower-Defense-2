@@ -4588,6 +4588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  partToRotate: {fileID: 1666585489}
 --- !u!1 &1009962431
 GameObject:
   m_ObjectHideFlags: 0
@@ -8591,6 +8592,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1662140608}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1666585489 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5137704085016768340, guid: 15a69cb0d13585b49b5a1c8a6aa5b411,
+    type: 3}
+  m_PrefabInstance: {fileID: 990622062}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1668294121
 GameObject:
   m_ObjectHideFlags: 0

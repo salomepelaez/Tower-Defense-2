@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class Turrets : MonoBehaviour
 {
-    private Vector3 direction;
     private float range = 5f;
     public Transform target;
+    public Transform partToRotate;
 
     void Update()
     {
         GetTarget();
+
+        if (target == null)
+            return;
+
+        Vector3 direction = target.position - transform.position;
+        Quaternion lookRotation = Quaternion.LookRotation(direction);
+        Vector3 rotation = lookRotation.eulerAngles;
+        partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
     }
 
     public void GetTarget()
