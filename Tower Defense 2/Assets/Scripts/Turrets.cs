@@ -23,10 +23,10 @@ public class Turrets : MonoBehaviour
 
     public void GetTarget()
     {
-        EnemyMove closest = null;
+        Enemy closest = null;
         float closestDistance = Mathf.Infinity;
 
-        foreach (var e in FindObjectsOfType<EnemyMove>())
+        foreach (var e in FindObjectsOfType<Enemy>())
         {
             float distance = Vector3.Distance(e.transform.position, transform.position);
 

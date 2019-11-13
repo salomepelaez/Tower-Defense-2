@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class TurretBullet : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        
-    }
+        if (other.transform.tag == "Enemy")
+        {
+            Destroy(this.gameObject);
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        /*if (gameObject.transform.position.z <= -9f)
+            Destroy(this.gameObject);*/
     }
 }

@@ -4,24 +4,43 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    GameObject enemy;
+    Transform target;
+    float speed = 1f;
+    Vector3 direction;
+    int index = 0;
 
-    private void Start()
+    void Start()
     {
-        InvokeRepeating("Create", 1f, 3f);
+        target = EnemyBehaviour.points[0];
     }
 
-    void Create()
+    void Update()
     {
-        enemy = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-        enemy.GetComponent<Renderer>().material.color = Color.cyan;
-        Vector3 pos = new Vector3();
-        pos.x = 12.13f;
-        pos.y = 0.46f;
-        pos.z = 11.87f;
-        enemy.transform.position = pos;
-        
-        enemy.AddComponent<EnemyMove>();
+        direction = Vector3.Normalize(target.transform.position - transform.position);
+        transform.position += direction * speed * Time.deltaTime;
+
+        if (Vector3.Distance(target.transform.position, transform.position) <= 0.2f)
+        {
+            GetNext();
+        }
     }
 
+    void GetNext()
+    {
+        index++;
+        target = EnemyBehaviour.points[index];
+
+        if (index >= EnemyBehaviour.points.Length - 1)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.transform.tag == "Bullet")
+        {
+            Destroy(gameObject);
+        }
+    }
 }
