@@ -4589,7 +4589,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   partToRotate: {fileID: 1666585489}
-  bullet: {fileID: 5587903489134527249, guid: 17160623941eed240893ab3d8b056730, type: 3}
 --- !u!4 &1000526549 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6971544903502382, guid: 15a69cb0d13585b49b5a1c8a6aa5b411,
@@ -7394,6 +7393,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1487003638}
+  - component: {fileID: 1487003639}
   m_Layer: 0
   m_Name: WeapoHolder
   m_TagString: Untagged
@@ -7408,13 +7408,27 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487003637}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 1.0180001, z: -0.00000038214387}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1000526549}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &1487003639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487003637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551454997fcd82b47930646fb7421c91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 5587903489134527249, guid: 17160623941eed240893ab3d8b056730, type: 3}
+  target: {fileID: 0}
 --- !u!1 &1520434901
 GameObject:
   m_ObjectHideFlags: 0
