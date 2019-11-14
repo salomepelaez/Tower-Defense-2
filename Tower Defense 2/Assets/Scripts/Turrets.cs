@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Turrets : MonoBehaviour
 {
-    private float range = 5f;
+    private float range = 2.5f;
     public Transform target;
     public Transform partToRotate;
 
