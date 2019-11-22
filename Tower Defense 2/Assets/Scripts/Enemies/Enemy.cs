@@ -40,7 +40,7 @@ public class Enemy : MonoBehaviour
     {
         if (other.transform.tag == "Bullet")
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
     }
 }

@@ -10,8 +10,5 @@ public class TurretBullet : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-
-        /*if (gameObject.transform.position.z <= -9f)
-            Destroy(this.gameObject);*/
     }
 }

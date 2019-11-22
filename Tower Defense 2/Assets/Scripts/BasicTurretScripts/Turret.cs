@@ -2,16 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoubleShooterTurret : MonoBehaviour
+public class Turret : MonoBehaviour
 {
-    public GameObject bullet;
-    float bulletSpeed = 800f;
-    float range = 3f;
+    private float range = 2.5f;
     public Transform target;
+    public Transform partToRotate;
 
-    private void Start()
+    void Update()
     {
-        InvokeRepeating("GetTarget", 0f, 2f);
+        GetTarget();
+
+        if (target == null)
+            return;
+
+        Vector3 direction = target.position - transform.position;
+        Quaternion lookRotation = Quaternion.LookRotation(direction);
+        Vector3 rotation = lookRotation.eulerAngles;
+        partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
     }
 
     public void GetTarget()
@@ -33,19 +40,15 @@ public class DoubleShooterTurret : MonoBehaviour
         if (closest != null && closestDistance < range)
         {
             target = closest.transform;
-            Shoot();
         }
 
         else
             target = null;
     }
 
-    void Shoot()
+    private void OnDrawGizmosSelected()
     {
-        GameObject instBullet = Instantiate(bullet, transform.position, Quaternion.identity) as GameObject;
-        Rigidbody rigidbody = instBullet.GetComponent<Rigidbody>();
-        rigidbody.AddForce(Vector3.forward * bulletSpeed);
-
-        Destroy(instBullet, 1f);
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, range);
     }
 }
