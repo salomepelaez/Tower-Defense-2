@@ -10,7 +10,7 @@ public class DoubleShooterTurret : MonoBehaviour
 
     private void Start()
     {
-        InvokeRepeating("GetTarget", 0f, 2f);
+        InvokeRepeating("GetTarget", 3f, 10f);
     }
 
     void Update()
