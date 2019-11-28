@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyCreator : MonoBehaviour
 {
-    GameObject enemy;
+    public GameObject enemy;
     int index = 0;
     float timeCounter = 2f;
     float timeBetweenWaves = 10f;
@@ -31,17 +31,13 @@ public class EnemyCreator : MonoBehaviour
 
     void Create()
     {
-        enemy = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-        enemy.transform.tag = "Enemy";
-        enemy.GetComponent<Renderer>().material.color = Color.cyan;
-        enemy.AddComponent<SphereCollider>();
-        enemy.GetComponent<SphereCollider>().isTrigger = true;
+        GameObject e = Instantiate(enemy, Vector3.zero, Quaternion.identity);
         Vector3 pos = new Vector3();
         pos.x = 12.13f;
         pos.y = 0.46f;
         pos.z = 11.87f;
-        enemy.transform.position = pos;
+        e.transform.position = pos;
 
-        enemy.AddComponent<Enemy>();
+        e.AddComponent<Enemy>();
     }
 }
