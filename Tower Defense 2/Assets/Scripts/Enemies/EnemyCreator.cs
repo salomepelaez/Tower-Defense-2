@@ -5,10 +5,28 @@ using UnityEngine;
 public class EnemyCreator : MonoBehaviour
 {
     GameObject enemy;
-    
-    private void Start()
+    int index = 0;
+    float timeCounter = 2f;
+    float timeBetweenWaves = 10f;
+
+    private void Update()
     {
-        InvokeRepeating("Create", 1f, 3f);
+        if(timeCounter <= 0)
+        {
+            StartCoroutine(CreateWaves());
+            timeCounter = timeBetweenWaves;
+        }
+        timeCounter -= Time.deltaTime;
+    }
+
+    IEnumerator CreateWaves()
+    {
+        index++;
+        for (int i = 0; i < index; i++)
+        {
+            Create();
+            yield return new WaitForSeconds(1f);
+        }        
     }
 
     void Create()
