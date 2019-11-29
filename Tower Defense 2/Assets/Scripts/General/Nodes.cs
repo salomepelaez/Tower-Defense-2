@@ -22,13 +22,13 @@ public class Nodes : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if(turret != null)
+        if (turret != null)
         {
             Debug.Log("no xd");
             return;
         }
 
         GameObject iTurret = BuildManager.instance.GetTurretToBuild();
-        turret = Instantiate(iTurret, Vector3.zero, Quaternion.identity);
+        turret = Instantiate(iTurret, transform.position, transform.rotation);
     }
 }

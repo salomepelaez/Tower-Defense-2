@@ -101,6 +101,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3299156586330460096}
+  - component: {fileID: 6009954416966414903}
   m_Layer: 0
   m_Name: PartToRotate
   m_TagString: Untagged
@@ -128,6 +129,20 @@ Transform:
   m_Father: {fileID: 3587703830267174748}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &6009954416966414903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025580599858942880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdf0ad71acf3bc64a8057ea21701890b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 0}
+  target: {fileID: 6649701558356797700, guid: 17160623941eed240893ab3d8b056730, type: 3}
 --- !u!1 &2717424267336539929
 GameObject:
   m_ObjectHideFlags: 0
@@ -140,6 +155,7 @@ GameObject:
   - component: {fileID: 7344710070503907095}
   - component: {fileID: 3522592328516499185}
   - component: {fileID: 6815508449094304368}
+  - component: {fileID: 3424528217842237774}
   m_Layer: 0
   m_Name: DoubleShooter
   m_TagString: Untagged
@@ -220,6 +236,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3424528217842237774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2717424267336539929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ee537b34f11ea42a518b697b56d006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  partToRotate: {fileID: 3299156586330460096}
 --- !u!1 &3326793300766524804
 GameObject:
   m_ObjectHideFlags: 0

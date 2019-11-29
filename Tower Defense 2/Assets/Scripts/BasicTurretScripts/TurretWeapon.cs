@@ -8,6 +8,7 @@ public class TurretWeapon : MonoBehaviour
     float bulletSpeed = 800f;
     float range = 5f;
     public Transform target;
+    private Vector3 _direction;
 
     private void Start()
     {
@@ -44,7 +45,8 @@ public class TurretWeapon : MonoBehaviour
     {
         GameObject instBullet = Instantiate(bullet, transform.position, Quaternion.identity) as GameObject;
         Rigidbody rigidbody = instBullet.GetComponent<Rigidbody>();
-        rigidbody.AddForce(Vector3.forward * bulletSpeed);
+        _direction = Vector3.Normalize(target.transform.position - transform.position);
+        rigidbody.AddForce(_direction * bulletSpeed);
 
         Destroy(instBullet, 1f);
     }

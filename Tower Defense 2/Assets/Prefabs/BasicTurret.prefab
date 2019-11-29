@@ -288,6 +288,7 @@ GameObject:
   - component: {fileID: 2290938282471216833}
   - component: {fileID: 4661983898308735786}
   - component: {fileID: 8693374607101194158}
+  - component: {fileID: 567489538475919179}
   m_Layer: 0
   m_Name: Canyon
   m_TagString: Untagged
@@ -370,6 +371,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.50000006
   m_Center: {x: 0.00000047683716, y: 0, z: 0}
+--- !u!114 &567489538475919179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7966485306663519844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551454997fcd82b47930646fb7421c91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 5587903489134527249, guid: 17160623941eed240893ab3d8b056730, type: 3}
+  target: {fileID: 0}
 --- !u!1 &8083234212127724648
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,8 +397,9 @@ GameObject:
   - component: {fileID: 6347981241840245553}
   - component: {fileID: 8506934447483199545}
   - component: {fileID: 8159291281587134389}
+  - component: {fileID: 4970211859325085291}
   m_Layer: 0
-  m_Name: Turret
+  m_Name: BasicTurret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -463,6 +479,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4970211859325085291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8083234212127724648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa66db04181838b498a6f83653a44cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  partToRotate: {fileID: 5137704085016768340}
 --- !u!1 &8194446297656596061
 GameObject:
   m_ObjectHideFlags: 0
