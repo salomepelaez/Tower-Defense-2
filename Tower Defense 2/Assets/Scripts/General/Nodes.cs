@@ -6,6 +6,7 @@ public class Nodes : MonoBehaviour
 {
     public Color color1;
     private Renderer rend;
+    private GameObject turret;
 
     private void OnMouseEnter()
     {
@@ -17,5 +18,16 @@ public class Nodes : MonoBehaviour
     {
         rend = GetComponent<Renderer>();
         rend.material.color = Color.white;
+    }
+
+    private void OnMouseDown()
+    {
+        if(turret != null)
+        {
+            Debug.Log("no xd");
+            return;
+        }
+
+        GameObject instaziateTurret = BuildManager.turretToBuild; 
     }
 }
