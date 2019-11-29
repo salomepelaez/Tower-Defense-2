@@ -4,7 +4,20 @@ using UnityEngine;
 
 public class BuildManager : MonoBehaviour
 {
-    public static GameObject turretToBuild;
+    public static BuildManager instance;
+
+    private GameObject turretToBuild;
+    public GameObject basicTurret;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
+    private void Start()
+    {
+        turretToBuild = basicTurret;
+    }
 
     public GameObject GetTurretToBuild()
     {
