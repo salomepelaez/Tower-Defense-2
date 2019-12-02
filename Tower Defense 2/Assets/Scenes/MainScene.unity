@@ -3255,7 +3255,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 0
+  m_Spacing: 2
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
@@ -11020,6 +11020,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basicTurret: {fileID: 8083234212127724648, guid: 15a69cb0d13585b49b5a1c8a6aa5b411,
+    type: 3}
+  doubleShooterTurret: {fileID: 2717424267336539929, guid: 4a69383c3fb22d34abef3c282f78071f,
     type: 3}
 --- !u!4 &2060189218
 Transform:

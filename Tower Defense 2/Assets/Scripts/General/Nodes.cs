@@ -8,6 +8,9 @@ public class Nodes : MonoBehaviour
     private Renderer rend;
     private GameObject turret;
 
+    BuildManager buildManager;
+
+
     private void OnMouseEnter()
     {
         rend = GetComponent<Renderer>();

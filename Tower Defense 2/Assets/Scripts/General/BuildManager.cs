@@ -8,19 +8,20 @@ public class BuildManager : MonoBehaviour
 
     private GameObject turretToBuild;
     public GameObject basicTurret;
+    public GameObject doubleShooterTurret;
 
     private void Awake()
     {
         instance = this;
     }
 
-    private void Start()
-    {
-        turretToBuild = basicTurret;
-    }
-
     public GameObject GetTurretToBuild()
     {
         return turretToBuild;
+    }
+
+    public void SetTurret(GameObject turret)
+    {
+        turretToBuild = turret;
     }
 }
