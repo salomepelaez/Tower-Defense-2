@@ -8,11 +8,12 @@ public class Enemy : MonoBehaviour
     float speed = 1f;
     Vector3 direction;
     int index = 0;
-    int life = 3;
+    public int life;
 
     void Start()
     {
         target = EnemyBehaviour.points[0];
+        life = 3;
     }
 
     void Update()
@@ -45,7 +46,7 @@ public class Enemy : MonoBehaviour
             Debug.Log(life);
 
             if (life <= 0)
-                Destroy(gameObject);
+                Destroy(this.gameObject);
         }
     }
 }
