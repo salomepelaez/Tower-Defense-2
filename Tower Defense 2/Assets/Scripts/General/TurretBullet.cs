@@ -8,7 +8,7 @@ public class TurretBullet : MonoBehaviour
     {
         if (other.transform.tag == "Enemy")
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
 }

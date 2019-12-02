@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     float speed = 1f;
     Vector3 direction;
     int index = 0;
+    int life = 3;
 
     void Start()
     {
@@ -36,11 +37,15 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public void OnTriggerEnter(Collider other)
+   public void OnTriggerEnter(Collider other)
     {
         if (other.transform.tag == "Bullet")
         {
-            Destroy(gameObject);
+            life = life - 1;
+            Debug.Log(life);
+
+            if (life <= 0)
+                Destroy(gameObject);
         }
     }
 }

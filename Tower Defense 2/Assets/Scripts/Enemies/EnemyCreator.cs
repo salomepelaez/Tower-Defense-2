@@ -5,7 +5,9 @@ using UnityEngine;
 public class EnemyCreator : MonoBehaviour
 {
     public GameObject enemy;
+
     int index = 0;
+
     float timeCounter = 2f;
     float timeBetweenWaves = 10f;
 

@@ -6,7 +6,7 @@ public class TurretWeapon : MonoBehaviour
 {
     public GameObject bullet;
     float bulletSpeed = 800f;
-    float range = 5f;
+    float range = 2.5f;
     public Transform target;
     private Vector3 _direction;
 
