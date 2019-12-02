@@ -28,7 +28,8 @@ public class Nodes : MonoBehaviour
             return;
         }
 
+        Vector3 pos = new Vector3(transform.position.x, 0.3f, transform.position.z);
         GameObject iTurret = BuildManager.instance.GetTurretToBuild();
-        turret = Instantiate(iTurret, transform.position, transform.rotation);
+        turret = Instantiate(iTurret, pos, transform.rotation);
     }
 }
