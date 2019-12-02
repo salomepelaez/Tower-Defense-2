@@ -25,6 +25,9 @@ public class Nodes : MonoBehaviour
 
     private void OnMouseDown()
     {
+        /*if (buildManager.GetTurretToBuild() == null)
+            return;*/
+
         if (turret != null)
         {
             Debug.Log("no xd");
