@@ -11034,7 +11034,7 @@ MonoBehaviour:
     type: 3}
   doubleShooterTurret: {fileID: 2717424267336539929, guid: 4a69383c3fb22d34abef3c282f78071f,
     type: 3}
-  laserTurret: {fileID: 6027948394389538265, guid: f8f319f3ae18b7e44878d18e3cbf7b98,
+  laserTurret: {fileID: 7724995692287327616, guid: bc0cc9260976e5b49b88556a6d0ecfee,
     type: 3}
 --- !u!4 &2060189218
 Transform:
