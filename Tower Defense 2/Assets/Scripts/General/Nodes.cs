@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Nodes : MonoBehaviour
 {
@@ -10,7 +11,8 @@ public class Nodes : MonoBehaviour
 
     BuildManager buildManager;
 
-
+    public TextMeshProUGUI cannotBuildThere;
+    
     private void OnMouseEnter()
     {
         rend = GetComponent<Renderer>();
@@ -25,17 +27,24 @@ public class Nodes : MonoBehaviour
 
     private void OnMouseDown()
     {
-        /*if (buildManager.GetTurretToBuild() == null)
-            return;*/
-
         if (turret != null)
         {
             Debug.Log("no xd");
+            StartCoroutine(CannotBuild());
             return;
         }
 
         Vector3 pos = new Vector3(transform.position.x, 0.5f, transform.position.z);
         GameObject iTurret = BuildManager.instance.GetTurretToBuild();
         turret = Instantiate(iTurret, pos, transform.rotation);
+    }
+
+    IEnumerator CannotBuild()
+    {
+        cannotBuildThere.text = "You can't build there!";
+
+        yield return new WaitForSeconds(2f);
+
+        cannotBuildThere.text = "";
     }
 }
