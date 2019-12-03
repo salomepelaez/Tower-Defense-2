@@ -22,4 +22,10 @@ public class Shop : MonoBehaviour
         Debug.Log("macaco");
         buildManager.SetTurret(buildManager.doubleShooterTurret);
     }
+
+    public void PurchaseLaserTurret()
+    {
+        Debug.Log("piu");
+        buildManager.SetTurret(buildManager.laserTurret);
+    }
 }

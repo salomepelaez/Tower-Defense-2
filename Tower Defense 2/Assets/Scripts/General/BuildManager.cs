@@ -9,6 +9,7 @@ public class BuildManager : MonoBehaviour
     private GameObject turretToBuild;
     public GameObject basicTurret;
     public GameObject doubleShooterTurret;
+    public GameObject laserTurret;
 
     private void Awake()
     {
