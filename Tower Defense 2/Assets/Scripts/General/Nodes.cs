@@ -12,6 +12,7 @@ public class Nodes : MonoBehaviour
     BuildManager buildManager;
 
     public TextMeshProUGUI cannotBuildThere;
+    public TextMeshProUGUI noTurretSelected;
     
     private void OnMouseEnter()
     {
@@ -34,9 +35,10 @@ public class Nodes : MonoBehaviour
             return;
         }
 
-        else if(turret == null)
+        if(BuildManager.instance.GetTurretToBuild() == null)
         {
             Debug.Log("empty vacio");
+            StartCoroutine(NoTurret());
             return;
         }
 
@@ -52,5 +54,14 @@ public class Nodes : MonoBehaviour
         yield return new WaitForSeconds(2f);
 
         cannotBuildThere.text = "";
+    }
+
+    IEnumerator NoTurret()
+    {
+        noTurretSelected.text = "Select a turret!";
+
+        yield return new WaitForSeconds(2f);
+
+        noTurretSelected.text = "";
     }
 }
