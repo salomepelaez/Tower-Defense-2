@@ -31,11 +31,11 @@ public class Shop : MonoBehaviour
             buildManager.SetTurret(buildManager.basicTurret);
             ShopManager.money = ShopManager.money - basicTurretPrice;
         }
-
+        
         else if(ShopManager.money < basicTurretPrice)
         {
             StartCoroutine(InsufficientMoney());
-        }
+        }        
     }
 
     public void PurchaseDoubleShooterTurret()

@@ -30,14 +30,12 @@ public class Nodes : MonoBehaviour
     {
         if (turret != null)
         {
-            Debug.Log("no xd");
             StartCoroutine(CannotBuild());
             return;
         }
 
         if(BuildManager.instance.GetTurretToBuild() == null)
         {
-            Debug.Log("empty vacio");
             StartCoroutine(NoTurret());
             return;
         }
@@ -45,6 +43,7 @@ public class Nodes : MonoBehaviour
         Vector3 pos = new Vector3(transform.position.x, 0.5f, transform.position.z);
         GameObject iTurret = BuildManager.instance.GetTurretToBuild();
         turret = Instantiate(iTurret, pos, transform.rotation);
+        BuildManager.instance.SetTurret(null);
     }
 
     IEnumerator CannotBuild()
