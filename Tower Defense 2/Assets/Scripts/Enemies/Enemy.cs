@@ -5,10 +5,14 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     Transform target;
-    float speed = 1f;
+    
     Vector3 direction;
-    int index = 0;
-    public int life;
+
+    public GameObject instCoin;
+
+    private int index = 0;
+    private int life;
+    private float speed = 1f;
 
     void Start()
     {
@@ -43,10 +47,12 @@ public class Enemy : MonoBehaviour
         if (other.transform.tag == "Bullet")
         {
             life = life - 1;
-            Debug.Log(life);
 
             if (life <= 0)
-                Destroy(this.gameObject);
+            {
+                Destroy(gameObject);
+                GameObject coin = Instantiate(instCoin, transform.position, transform.rotation);                               
+            }
         }
     }
 }
