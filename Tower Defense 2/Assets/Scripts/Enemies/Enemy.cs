@@ -48,8 +48,9 @@ public class Enemy : MonoBehaviour
         {
             life = life - 1;
 
-            if (life <= 0)
+            if (life < 0)
             {
+                Debug.Log(life);
                 Destroy(gameObject, 0.2f);
                 GameObject coin = Instantiate(instCoin, transform.position, transform.rotation);                               
             }
