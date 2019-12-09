@@ -23,8 +23,7 @@ public class EnemyCreator : MonoBehaviour
 
     IEnumerator CreateWaves()
     {
-        index = Random.Range(0, 8);
-        Debug.Log(index);
+        index = Random.Range(0, 6);
         for (int i = 0; i < index; i++)
         {
             Create();
