@@ -5,13 +5,13 @@ using UnityEngine;
 public class DoubleShooterWeapon : MonoBehaviour
 {
     public GameObject bullet;
-    float bulletSpeed = 800f;
-    float range = 2.5f;
+    float bulletSpeed = 150f;
+    float range = 3f;
     public Transform target;
 
     private void Start()
     {
-        InvokeRepeating("GetTarget", 0f, 10f);
+        InvokeRepeating("GetTarget", 0f, 5f);
     }
 
     public void GetTarget()
@@ -44,7 +44,8 @@ public class DoubleShooterWeapon : MonoBehaviour
     {
         GameObject instBullet = Instantiate(bullet, transform.position, Quaternion.identity) as GameObject;
         Rigidbody rigidbody = instBullet.GetComponent<Rigidbody>();
-        rigidbody.AddForce(Vector3.forward * bulletSpeed);
+        Vector3 direction = target.position - transform.position;
+        rigidbody.AddForce(direction * bulletSpeed);
 
         Destroy(instBullet, 1f);
     }

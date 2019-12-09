@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
 
     private int index = 0;
     private int life;
+    private int enemyDamage = 10;
     private float speed = 1f;
 
     void Start()
@@ -39,6 +40,8 @@ public class Enemy : MonoBehaviour
         if (index >= EnemyBehaviour.points.Length - 1)
         {
             Destroy(gameObject);
+            Manager.systemLife = Manager.systemLife - enemyDamage;
+            Debug.Log(Manager.systemLife);
         }
     }
 
