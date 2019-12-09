@@ -6,7 +6,10 @@ public class EnemyCreator : MonoBehaviour
 {
     public GameObject enemy;
 
+    public GameObject[] enemies;
+
     int index;
+    int enemiesIndex;
 
     float timeCounter = 2f;
     float timeBetweenWaves = 10f;
@@ -33,6 +36,8 @@ public class EnemyCreator : MonoBehaviour
 
     void Create()
     {
+        enemiesIndex = Random.Range(0, enemies.Length);
+        enemy = enemies[enemiesIndex];
         GameObject e = Instantiate(enemy, Vector3.zero, Quaternion.identity);
         Vector3 pos = new Vector3();
         pos.x = 12.13f;

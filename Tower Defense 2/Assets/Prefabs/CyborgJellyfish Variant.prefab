@@ -39,6 +39,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CyborgJellyfish Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 281378510203137852, guid: 44f4995accad8884b9715867e51fd972,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4777963566133873265, guid: 44f4995accad8884b9715867e51fd972,
         type: 3}
       propertyPath: m_LocalPosition.x
