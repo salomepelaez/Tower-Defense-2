@@ -39,7 +39,5 @@ public class EnemyCreator : MonoBehaviour
         pos.y = 0.46f;
         pos.z = 11.87f;
         e.transform.position = pos;
-
-        e.AddComponent<Enemy>();
     }
 }

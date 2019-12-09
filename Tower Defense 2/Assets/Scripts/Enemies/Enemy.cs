@@ -43,14 +43,14 @@ public class Enemy : MonoBehaviour
     }
 
    public void OnTriggerEnter(Collider other)
-    {
+   {
         if (other.transform.tag == "Bullet")
         {
             life = life - 1;
 
             if (life <= 0)
             {
-                Destroy(gameObject);
+                Destroy(gameObject, 0.2f);
                 GameObject coin = Instantiate(instCoin, transform.position, transform.rotation);                               
             }
         }
