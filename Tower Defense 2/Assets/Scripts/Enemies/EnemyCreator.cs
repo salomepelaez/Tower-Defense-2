@@ -6,7 +6,7 @@ public class EnemyCreator : MonoBehaviour
 {
     public GameObject enemy;
 
-    int index = 0;
+    int index;
 
     float timeCounter = 2f;
     float timeBetweenWaves = 10f;
@@ -23,7 +23,8 @@ public class EnemyCreator : MonoBehaviour
 
     IEnumerator CreateWaves()
     {
-        index++;
+        index = Random.Range(0, 8);
+        Debug.Log(index);
         for (int i = 0; i < index; i++)
         {
             Create();
