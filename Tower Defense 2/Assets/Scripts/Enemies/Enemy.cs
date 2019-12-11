@@ -4,22 +4,16 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    Transform target;
+    public Transform target;
     
     Vector3 direction;
 
     public GameObject instCoin;
 
     private int index = 0;
-    private int life;
+    public int life;
     private int enemyDamage = 10;
-    private float speed = 1f;
-
-    void Start()
-    {
-        target = EnemyBehaviour.points[0];
-        life = 3;
-    }
+    public float speed;
 
     void Update()
     {
@@ -52,13 +46,37 @@ public class Enemy : MonoBehaviour
    {
         if (other.transform.tag == "Bullet")
         {
-            life = life - 1;
+            life = life - TurretBullet.damage;
 
             if (life < 0)
             {
                 Destroy(gameObject, 0.2f);
                 Manager.counter = Manager.counter + 1;
                 GameObject coin = Instantiate(instCoin, transform.position, transform.rotation);                               
+            }
+        }
+
+        if (other.transform.tag == "DSBullet")
+        {
+            life = life - DSBullet.damage;
+
+            if (life < 0)
+            {
+                Destroy(gameObject, 0.2f);
+                Manager.counter = Manager.counter + 1;
+                GameObject coin = Instantiate(instCoin, transform.position, transform.rotation);
+            }
+        }
+
+        if (other.transform.tag == "LaserBullet")
+        {
+            life = life - LaserBullet.damage;
+
+            if (life < 0)
+            {
+                Destroy(gameObject, 0.2f);
+                Manager.counter = Manager.counter + 1;
+                GameObject coin = Instantiate(instCoin, transform.position, transform.rotation);
             }
         }
     }

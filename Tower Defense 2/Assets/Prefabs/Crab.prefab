@@ -1394,7 +1394,7 @@ GameObject:
   - component: {fileID: 8608663025336878753}
   - component: {fileID: 1817875147974164672}
   - component: {fileID: 9126016725646148903}
-  - component: {fileID: 4616931137283046192}
+  - component: {fileID: 2476590448123942352}
   m_Layer: 0
   m_Name: Crab
   m_TagString: Enemy
@@ -1484,7 +1484,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4616931137283046192
+--- !u!114 &2476590448123942352
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1493,11 +1493,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 7415041953607195683}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30a37cc2452d50642b44e5e0ec282da5, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b57891b5cafd824aa6d7f072ad58ab9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
   instCoin: {fileID: 6717557950842633719, guid: b887532044f2d024eb4c1d6a0e83df68,
     type: 3}
+  life: 0
+  speed: 0
 --- !u!1 &7625683956515636647
 GameObject:
   m_ObjectHideFlags: 0

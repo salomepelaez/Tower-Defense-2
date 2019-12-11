@@ -9,7 +9,7 @@ public class Shop : MonoBehaviour
         
     private int basicTurretPrice = 50;
     private int doubleShooterPrice = 100;
-    private int laserTurret = 150;
+    private int laserTurret = 250;
 
     public TextMeshProUGUI noMoney;
 

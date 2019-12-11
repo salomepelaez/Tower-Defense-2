@@ -13,7 +13,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 4, z: 1.5}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114522921679923992
+--- !u!114 &7028256034994721505
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22,11 +22,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 4389968422355382799}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30a37cc2452d50642b44e5e0ec282da5, type: 3}
+  m_Script: {fileID: 11500000, guid: c16ba31fa5743dd4b9ef7132ea98d3e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
   instCoin: {fileID: 6717557950842633719, guid: b887532044f2d024eb4c1d6a0e83df68,
     type: 3}
+  life: 0
+  speed: 0
 --- !u!1001 &4542976741193981235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43,6 +46,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112576557596314648, guid: 44f4995accad8884b9715867e51fd972,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4777963566133873265, guid: 44f4995accad8884b9715867e51fd972,
         type: 3}
@@ -113,11 +121,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.48447
-      objectReference: {fileID: 0}
-    - target: {fileID: 1112576557596314648, guid: 44f4995accad8884b9715867e51fd972,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44f4995accad8884b9715867e51fd972, type: 3}
