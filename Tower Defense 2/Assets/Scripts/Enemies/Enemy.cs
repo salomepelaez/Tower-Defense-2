@@ -54,6 +54,7 @@ public class Enemy : MonoBehaviour
             if (life < 0)
             {
                 Destroy(gameObject, 0.2f);
+                Manager.counter = Manager.counter + 1;
                 GameObject coin = Instantiate(instCoin, transform.position, transform.rotation);                               
             }
         }

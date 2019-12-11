@@ -36,13 +36,16 @@ public class EnemyCreator : MonoBehaviour
 
     void Create()
     {
-        enemiesIndex = Random.Range(0, enemies.Length);
-        enemy = enemies[enemiesIndex];
-        GameObject e = Instantiate(enemy, Vector3.zero, Quaternion.identity);
-        Vector3 pos = new Vector3();
-        pos.x = 12.13f;
-        pos.y = 0.46f;
-        pos.z = 11.87f;
-        e.transform.position = pos;
+        if (Manager.inGame == true)
+        {
+            enemiesIndex = Random.Range(0, enemies.Length);
+            enemy = enemies[enemiesIndex];
+            GameObject e = Instantiate(enemy, Vector3.zero, Quaternion.identity);
+            Vector3 pos = new Vector3();
+            pos.x = 12.13f;
+            pos.y = 0.46f;
+            pos.z = 11.87f;
+            e.transform.position = pos;
+        }
     }
 }
