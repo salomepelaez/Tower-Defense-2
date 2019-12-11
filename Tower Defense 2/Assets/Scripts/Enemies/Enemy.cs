@@ -23,12 +23,15 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        direction = Vector3.Normalize(target.transform.position - transform.position);
-        transform.position += direction * speed * Time.deltaTime;
-
-        if (Vector3.Distance(target.transform.position, transform.position) <= 0.2f)
+        if (Manager.inGame == true)
         {
-            GetNext();
+            direction = Vector3.Normalize(target.transform.position - transform.position);
+            transform.position += direction * speed * Time.deltaTime;
+
+            if (Vector3.Distance(target.transform.position, transform.position) <= 0.2f)
+            {
+                GetNext();
+            }
         }
     }
 
