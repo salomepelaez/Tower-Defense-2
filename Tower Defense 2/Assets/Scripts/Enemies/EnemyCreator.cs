@@ -15,6 +15,13 @@ public class EnemyCreator : MonoBehaviour
     float timeCounter = 2f;
     float timeBetweenWaves = 10f;
 
+    float counter = 0;
+
+    private void Start()
+    {
+        InvokeRepeating("Timer", 0f, 1f);
+    }
+
     private void Update()
     {
         // El siguiente bloque de código es el que inicializa la creación de enemigos cuando el contador llega a 0. 
@@ -23,18 +30,21 @@ public class EnemyCreator : MonoBehaviour
             StartCoroutine(CreateWaves());
             timeCounter = timeBetweenWaves; // Luego, el primer contador pasa a tomar en cuenta el tiempo de espera asignado en el segundo contador.
         }
-        timeCounter -= Time.deltaTime; // Esta línea es la encargada de disminuir estos contadores.
+        timeCounter -= Time.deltaTime; // Esta línea es la encargada de disminuir estos contadores.                
     }
 
     IEnumerator CreateWaves()
     {
-        index = Random.Range(0, 6); // Se asignó un número aleatorio para la oleada de enemigos.
+        if (Manager.winner == true)
+            index = 0;
+         else
+            index = Random.Range(0, 6); // Se asignó un número aleatorio para la oleada de enemigos.
 
         for (int i = 0; i < index; i++)
         {
             Create();
             yield return new WaitForSeconds(1f); // Con diferencia de 1 segundo para que no se generen uno sobre el otro.
-        }        
+        }  
     }
 
     void Create()
@@ -43,7 +53,7 @@ public class EnemyCreator : MonoBehaviour
         {
             // Se asigna la variable como un número aleatorio entre 0 y la cantidad de GameObjects que hay en el array.
             enemiesIndex = Random.Range(0, enemies.Length); 
-            enemy = enemies[enemiesIndex]; // Se asigna el GameObject como la posición aleatoria que
+            enemy = enemies[enemiesIndex]; // Se asigna el GameObject como la posición aleatoria que se acab de escoger
             GameObject e = Instantiate(enemy, Vector3.zero, Quaternion.identity);
             Vector3 pos = new Vector3();
             pos.x = 12.13f;
@@ -51,5 +61,10 @@ public class EnemyCreator : MonoBehaviour
             pos.z = 11.87f;
             e.transform.position = pos;
         }
+    }
+
+    void Timer()
+    {
+        counter++;
     }
 }

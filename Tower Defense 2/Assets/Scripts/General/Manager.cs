@@ -6,8 +6,10 @@ using TMPro;
 public class Manager : MonoBehaviour
 {
     public static int systemLife;
-    public static bool inGame = true;
     public static int counter;
+
+    public static bool inGame = true;
+    public static bool winner;
 
     public TextMeshProUGUI gameOver;
 
@@ -32,6 +34,7 @@ public class Manager : MonoBehaviour
         if(counter >= 50)
         {
             inGame = false;
+            winner = true;
             music.Stop();
         }
     }
