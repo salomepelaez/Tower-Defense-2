@@ -7,7 +7,7 @@ public class TurretWeapon : MonoBehaviour
     //A continuación se crearon las variables que se utilizarán en el código.
     public GameObject bullet;
 
-    private float bulletSpeed = 800f;
+    private float bulletSpeed = 500f;
     private float range = 3f;
 
     public Transform target;
