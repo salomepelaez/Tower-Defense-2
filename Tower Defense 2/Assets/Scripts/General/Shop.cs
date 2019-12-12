@@ -8,7 +8,7 @@ public class Shop : MonoBehaviour
     BuildManager buildManager;
         
     private int basicTurretPrice = 50;
-    private int doubleShooterPrice = 100;
+    private int doubleShooterPrice = 200;
     private int laserTurret = 350;
 
     public TextMeshProUGUI noMoney;
