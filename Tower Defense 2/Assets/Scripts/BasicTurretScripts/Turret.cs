@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Turret : MonoBehaviour
 {
-    private float range = 2.5f;
+    // Este código es el que se encarga de hacer una parte específica de la torreta.
+    private float range = 3f;
+
     public Transform target;
-    public Transform partToRotate;
+    public Transform partToRotate; // Este transform es el que permite escoger la parte a rotar.
 
     void Update()
     {
@@ -20,6 +22,9 @@ public class Turret : MonoBehaviour
         Vector3 rotation = lookRotation.eulerAngles;
         partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
     }
+
+    // De la misma manera que el arma, este método se encarga de escoger un target entre los objetos cercanos.
+    // La diferencia está en que no genera una bala, sino que hace rotar la torreta.
 
     public void GetTarget()
     {
@@ -46,6 +51,7 @@ public class Turret : MonoBehaviour
             target = null;
     }
 
+    // El siguiente bloque de código es solamente para saber el rango de ataque que posee la torreta.
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
