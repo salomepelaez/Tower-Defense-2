@@ -5,14 +5,19 @@ using UnityEngine;
 public class TurretWeapon : MonoBehaviour
 {
     public GameObject bullet;
+
     float bulletSpeed = 800f;
-    float range = 2.5f;
+    float range = 3f;
+
     public Transform target;
+
     private Vector3 _direction;
+
+    public AudioSource shot;
 
     private void Start()
     {
-        InvokeRepeating("GetTarget", 0f, 2f);
+        InvokeRepeating("GetTarget", 0f, 1f);
     }
 
     public void GetTarget()
@@ -47,6 +52,8 @@ public class TurretWeapon : MonoBehaviour
         Rigidbody rigidbody = instBullet.GetComponent<Rigidbody>();
         _direction = Vector3.Normalize(target.transform.position - transform.position);
         rigidbody.AddForce(_direction * bulletSpeed);
+
+        shot.Play();
 
         Destroy(instBullet, 1f);
     }

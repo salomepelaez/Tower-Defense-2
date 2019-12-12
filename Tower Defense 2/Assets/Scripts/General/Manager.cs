@@ -11,10 +11,13 @@ public class Manager : MonoBehaviour
 
     public TextMeshProUGUI gameOver;
 
+    public AudioSource music;
+
     private void Start()
     {
         systemLife = 100;
         counter = 0;
+        music.Play();
     }
 
     private void Update()
@@ -23,13 +26,13 @@ public class Manager : MonoBehaviour
         {
             inGame = false;
             gameOver.text = "Gameover";
-            Debug.Log("gei mover");
+            music.Stop();
         }
 
         if(counter >= 50)
         {
             inGame = false;
-            Debug.Log("yeiii");
+            music.Stop();
         }
     }
 }
