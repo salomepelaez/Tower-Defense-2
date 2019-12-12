@@ -320,11 +320,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93823792}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.01, y: 0, z: 9.54}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 6.010001, y: 0, z: 9.540001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 56
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &93823794
 BoxCollider:
@@ -399,6 +399,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &115243275
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,11 +555,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120729356}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.58, y: 0, z: 3.56}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 3.5800002, y: 0, z: 3.5599995}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 10
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &120729358
 BoxCollider:
@@ -633,6 +634,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,11 +732,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 173054040}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.19, y: 0, z: 1.18}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 1.1899985, y: 0, z: 1.1799976}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 4
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &173054042
 BoxCollider:
@@ -809,6 +811,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &175634879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1126,11 +1129,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186280334}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 0, z: 13.1}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 8.400002, y: 0, z: 13.100002}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 67
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &186280336
 BoxCollider:
@@ -1205,6 +1208,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &205210878
 GameObject:
   m_ObjectHideFlags: 0
@@ -1290,11 +1294,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 254150554}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.01, y: 0, z: 11.92}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 6.010001, y: 0, z: 11.920001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 58
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &254150556
 BoxCollider:
@@ -1382,11 +1386,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 264816545}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.58, y: 0, z: 5.94}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 3.5800002, y: 0, z: 5.939999}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 32
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &264816547
 BoxCollider:
@@ -1461,6 +1465,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &327359254
 GameObject:
   m_ObjectHideFlags: 0
@@ -1489,11 +1494,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 327359254}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.82, y: 0, z: 1.18}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 4.82, y: 0, z: 1.179998}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 12
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &327359256
 BoxCollider:
@@ -1568,6 +1573,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &328188187
 GameObject:
   m_ObjectHideFlags: 0
@@ -1596,11 +1602,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 328188187}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.58, y: 0, z: 1.18}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 3.5800006, y: 0, z: 1.179998}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 9
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &328188189
 BoxCollider:
@@ -1675,6 +1681,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &335518286
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,11 +1710,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 335518286}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.01, y: 0, z: 15.48}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 6.010001, y: 0, z: 15.480002}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 79
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &335518288
 BoxCollider:
@@ -1782,6 +1789,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &349372015
 GameObject:
   m_ObjectHideFlags: 0
@@ -1810,11 +1818,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 349372015}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5.94}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 5.939999}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 23
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &349372017
 BoxCollider:
@@ -1889,6 +1897,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &386173594
 GameObject:
   m_ObjectHideFlags: 0
@@ -1916,95 +1925,8 @@ Transform:
   m_LocalPosition: {x: -0.19636181, y: 1.3523293, z: -0.25449842}
   m_LocalScale: {x: 0.046752818, y: 3.3808231, z: 0.028403847}
   m_Children:
-  - {fileID: 1438123226}
-  - {fileID: 1024258797}
-  - {fileID: 519358293}
-  - {fileID: 1910727079}
-  - {fileID: 173054041}
-  - {fileID: 1397384654}
-  - {fileID: 1780016054}
-  - {fileID: 479266572}
-  - {fileID: 534405763}
-  - {fileID: 328188188}
-  - {fileID: 120729357}
-  - {fileID: 661604155}
-  - {fileID: 327359255}
-  - {fileID: 1188328933}
-  - {fileID: 934924136}
-  - {fileID: 1332152069}
-  - {fileID: 1230623371}
-  - {fileID: 829675259}
-  - {fileID: 1916286043}
-  - {fileID: 917241878}
-  - {fileID: 1406997808}
-  - {fileID: 1520434902}
-  - {fileID: 2011491842}
-  - {fileID: 349372016}
-  - {fileID: 1385945320}
-  - {fileID: 1369646308}
-  - {fileID: 1986372927}
-  - {fileID: 606136805}
-  - {fileID: 1431794823}
-  - {fileID: 2101043092}
-  - {fileID: 1644280635}
-  - {fileID: 1097438587}
-  - {fileID: 264816546}
-  - {fileID: 1944183851}
-  - {fileID: 1296113972}
-  - {fileID: 1375031055}
-  - {fileID: 1579868051}
-  - {fileID: 912284341}
-  - {fileID: 1375130588}
-  - {fileID: 1132740865}
-  - {fileID: 1598490163}
-  - {fileID: 450365097}
-  - {fileID: 493179586}
-  - {fileID: 698237864}
-  - {fileID: 870333852}
-  - {fileID: 927262914}
-  - {fileID: 937997384}
-  - {fileID: 927921836}
-  - {fileID: 1955980983}
-  - {fileID: 1845941935}
-  - {fileID: 1586918622}
-  - {fileID: 1215462750}
-  - {fileID: 1352287616}
-  - {fileID: 1570833671}
-  - {fileID: 1348844716}
-  - {fileID: 1090637449}
-  - {fileID: 93823793}
-  - {fileID: 2087130463}
-  - {fileID: 254150555}
-  - {fileID: 1696243846}
-  - {fileID: 722170201}
-  - {fileID: 1615876117}
-  - {fileID: 1713558056}
-  - {fileID: 1839590613}
-  - {fileID: 1192616755}
-  - {fileID: 811906658}
-  - {fileID: 1668294122}
-  - {fileID: 186280335}
-  - {fileID: 870814969}
-  - {fileID: 1393179741}
-  - {fileID: 1382037981}
-  - {fileID: 1460530134}
-  - {fileID: 1075983122}
-  - {fileID: 1972514153}
-  - {fileID: 1670458051}
-  - {fileID: 1652598051}
-  - {fileID: 458230234}
-  - {fileID: 967870223}
-  - {fileID: 1009962432}
-  - {fileID: 335518287}
-  - {fileID: 408507576}
-  - {fileID: 1273971462}
-  - {fileID: 1838014310}
-  - {fileID: 1046304838}
-  - {fileID: 1758726129}
-  - {fileID: 835009884}
-  - {fileID: 1806584286}
-  - {fileID: 1045024165}
-  - {fileID: 442183679}
+  - {fileID: 1921182725}
+  - {fileID: 577117380}
   m_Father: {fileID: 1608437043}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2080,11 +2002,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408507575}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.01, y: 0, z: 17.86}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 6.010001, y: 0, z: 17.860003}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 80
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &408507577
 BoxCollider:
@@ -2159,6 +2081,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &424133584
 GameObject:
   m_ObjectHideFlags: 0
@@ -2231,10 +2154,10 @@ Transform:
   m_GameObject: {fileID: 442183678}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 88
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &442183680
 BoxCollider:
@@ -2322,11 +2245,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450365096}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 0, z: 7.1400003}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 8.400002, y: 0, z: 7.1400003}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 41
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &450365098
 BoxCollider:
@@ -2401,6 +2324,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &458230233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2429,11 +2353,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458230233}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.58, y: 0, z: 17.86}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 3.5799997, y: 0, z: 17.860003}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 76
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &458230235
 BoxCollider:
@@ -2508,6 +2432,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &479266571
 GameObject:
   m_ObjectHideFlags: 0
@@ -2536,11 +2461,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479266571}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3899999, y: 0, z: 3.56}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 2.3899992, y: 0, z: 3.5599988}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 7
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &479266573
 BoxCollider:
@@ -2615,6 +2540,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &493179585
 GameObject:
   m_ObjectHideFlags: 0
@@ -2643,11 +2569,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 493179585}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 0, z: 8.32}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 8.400002, y: 0, z: 8.32}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 42
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &493179587
 BoxCollider:
@@ -2722,6 +2648,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &498394703
 GameObject:
   m_ObjectHideFlags: 0
@@ -2890,10 +2817,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519358292}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 3.56}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3.5599995}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
+  m_Father: {fileID: 1921182725}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &519358294
@@ -2969,6 +2896,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &530409667
 GameObject:
   m_ObjectHideFlags: 0
@@ -3156,11 +3084,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534405762}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.58, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 3.5799997, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 8
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &534405764
 BoxCollider:
@@ -3302,6 +3230,184 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 65, y: 0, z: 0}
+--- !u!1 &558590516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 558590517}
+  - component: {fileID: 558590518}
+  m_Layer: 0
+  m_Name: TurretSet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &558590517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558590516}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1218219122}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &558590518
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558590516}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c5d243b462b5386488045b38664af92a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &577117379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 577117380}
+  m_Layer: 0
+  m_Name: BlackHoles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &577117380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577117379}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1910727079}
+  - {fileID: 1397384654}
+  - {fileID: 534405763}
+  - {fileID: 917241878}
+  - {fileID: 1406997808}
+  - {fileID: 1385945320}
+  - {fileID: 606136805}
+  - {fileID: 1644280635}
+  - {fileID: 1348844716}
+  - {fileID: 254150555}
+  - {fileID: 722170201}
+  - {fileID: 1615876117}
+  - {fileID: 1713558056}
+  - {fileID: 1192616755}
+  - {fileID: 811906658}
+  - {fileID: 1668294122}
+  - {fileID: 1393179741}
+  - {fileID: 1382037981}
+  - {fileID: 1806584286}
+  - {fileID: 1045024165}
+  - {fileID: 442183679}
+  m_Father: {fileID: 386173595}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &601700161
 GameObject:
   m_ObjectHideFlags: 0
@@ -3489,11 +3595,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606136804}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.19, y: 0, z: 7.1400003}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 1.1899987, y: 0, z: 7.1400003}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 27
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &606136806
 BoxCollider:
@@ -3582,10 +3688,10 @@ Transform:
   m_GameObject: {fileID: 661604154}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.82, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 11
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &661604156
 BoxCollider:
@@ -3660,6 +3766,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &698237863
 GameObject:
   m_ObjectHideFlags: 0
@@ -3688,11 +3795,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 698237863}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 9.54}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 9.540001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 43
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &698237865
 BoxCollider:
@@ -3767,6 +3874,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &722170200
 GameObject:
   m_ObjectHideFlags: 0
@@ -3794,11 +3902,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722170200}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.21, y: 0, z: 9.54}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 7.2100015, y: 0, z: 9.540001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 60
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &722170202
 BoxCollider:
@@ -4347,11 +4455,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811906657}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 0, z: 10.72}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 8.400002, y: 0, z: 10.720001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 65
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &811906659
 BoxCollider:
@@ -4439,11 +4547,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829675258}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.21, y: 0, z: 2.38}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 7.2100015, y: 0, z: 2.3799992}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 17
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &829675260
 BoxCollider:
@@ -4518,6 +4626,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &835009883
 GameObject:
   m_ObjectHideFlags: 0
@@ -4546,11 +4655,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 835009883}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 0, z: 17.86}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 8.400002, y: 0, z: 17.860003}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 85
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &835009885
 BoxCollider:
@@ -4625,6 +4734,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &835860026
 GameObject:
   m_ObjectHideFlags: 0
@@ -4814,7 +4924,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1218219122}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &847023699
 AudioSource:
@@ -4940,11 +5050,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 870333851}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 10.72}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10.720002}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 44
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &870333853
 BoxCollider:
@@ -5019,6 +5129,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &870814968
 GameObject:
   m_ObjectHideFlags: 0
@@ -5047,11 +5158,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 870814968}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 14.3}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 14.300001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 68
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &870814970
 BoxCollider:
@@ -5126,6 +5237,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &875956089
 GameObject:
   m_ObjectHideFlags: 0
@@ -5344,11 +5456,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 912284340}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.01, y: 0, z: 8.32}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 6.010001, y: 0, z: 8.32}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 37
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &912284342
 BoxCollider:
@@ -5423,6 +5535,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &917241877
 GameObject:
   m_ObjectHideFlags: 0
@@ -5450,11 +5563,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917241877}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 8.400002, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 19
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &917241879
 BoxCollider:
@@ -5542,11 +5655,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 927262913}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 11.92}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 11.920001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 45
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &927262915
 BoxCollider:
@@ -5621,6 +5734,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &927921835
 GameObject:
   m_ObjectHideFlags: 0
@@ -5649,11 +5763,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 927921835}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.39, y: 0, z: 10.72}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 2.3899994, y: 0, z: 10.720001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 47
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &927921837
 BoxCollider:
@@ -5728,6 +5842,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &934924135
 GameObject:
   m_ObjectHideFlags: 0
@@ -5756,11 +5871,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 934924135}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.01, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 6.010001, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 14
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &934924137
 BoxCollider:
@@ -5835,6 +5950,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &937997383
 GameObject:
   m_ObjectHideFlags: 0
@@ -5863,11 +5979,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937997383}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 13.1}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 13.100002}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 46
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &937997385
 BoxCollider:
@@ -5942,6 +6058,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &948581546
 GameObject:
   m_ObjectHideFlags: 0
@@ -6048,11 +6165,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967870222}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.82, y: 0, z: 15.48}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 4.82, y: 0, z: 15.480002}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 77
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &967870224
 BoxCollider:
@@ -6127,6 +6244,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1009962431
 GameObject:
   m_ObjectHideFlags: 0
@@ -6155,11 +6273,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1009962431}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.82, y: 0, z: 17.86}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 4.82, y: 0, z: 17.860003}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 78
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1009962433
 BoxCollider:
@@ -6234,6 +6352,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1024258796
 GameObject:
   m_ObjectHideFlags: 0
@@ -6262,10 +6381,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1024258796}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2.38}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.3799987}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
+  m_Father: {fileID: 1921182725}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1024258798
@@ -6341,6 +6460,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1045024164
 GameObject:
   m_ObjectHideFlags: 0
@@ -6368,11 +6488,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045024164}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.37, y: 0, z: 1.1}
+  m_LocalPosition: {x: 8.370002, y: 0, z: 1.0999995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 87
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1045024166
 BoxCollider:
@@ -6460,11 +6580,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1046304837}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 0, z: 15.48}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 8.400002, y: 0, z: 15.480002}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 83
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1046304839
 BoxCollider:
@@ -6539,6 +6659,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1054015438
 GameObject:
   m_ObjectHideFlags: 0
@@ -6727,11 +6848,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1075983121}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.19, y: 0, z: 17.86}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 1.1899985, y: 0, z: 17.860003}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 72
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1075983123
 BoxCollider:
@@ -6806,6 +6927,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1090637448
 GameObject:
   m_ObjectHideFlags: 0
@@ -6834,11 +6956,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090637448}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.82, y: 0, z: 13.1}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 4.820001, y: 0, z: 13.100002}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 55
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1090637450
 BoxCollider:
@@ -6913,6 +7035,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1097438586
 GameObject:
   m_ObjectHideFlags: 0
@@ -6941,11 +7064,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097438586}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3899999, y: 0, z: 8.32}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 2.3899996, y: 0, z: 8.32}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 31
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1097438588
 BoxCollider:
@@ -7020,6 +7143,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1132740864
 GameObject:
   m_ObjectHideFlags: 0
@@ -7048,11 +7172,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1132740864}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 0, z: 4.76}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 8.400001, y: 0, z: 4.7599993}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 39
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1132740866
 BoxCollider:
@@ -7127,6 +7251,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1144270295
 GameObject:
   m_ObjectHideFlags: 0
@@ -7345,11 +7470,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188328932}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.82, y: 0, z: 3.56}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 4.82, y: 0, z: 3.5599995}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 13
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1188328934
 BoxCollider:
@@ -7424,6 +7549,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1192616754
 GameObject:
   m_ObjectHideFlags: 0
@@ -7451,11 +7577,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192616754}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 0, z: 9.54}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 8.400002, y: 0, z: 9.540001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 64
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1192616756
 BoxCollider:
@@ -7606,11 +7732,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1215462749}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.58, y: 0, z: 11.92}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 3.5800002, y: 0, z: 11.920001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 51
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1215462751
 BoxCollider:
@@ -7685,6 +7811,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1218219121
 GameObject:
   m_ObjectHideFlags: 0
@@ -7713,7 +7840,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 115243276}
+  - {fileID: 558590517}
   - {fileID: 1286388405}
+  - {fileID: 1387814417}
   - {fileID: 847023698}
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -7746,11 +7875,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230623370}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.21, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 7.2100015, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 16
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1230623372
 BoxCollider:
@@ -7825,6 +7954,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1273971461
 GameObject:
   m_ObjectHideFlags: 0
@@ -7853,11 +7983,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1273971461}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.21, y: 0, z: 17.86}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 7.2100015, y: 0, z: 17.860003}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 81
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1273971463
 BoxCollider:
@@ -7932,6 +8062,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1286388404
 GameObject:
   m_ObjectHideFlags: 0
@@ -7961,7 +8092,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1218219122}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1286388406
 AudioSource:
@@ -8087,11 +8218,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296113971}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.58, y: 0, z: 8.32}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 3.5799997, y: 0, z: 8.32}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 34
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1296113973
 BoxCollider:
@@ -8166,6 +8297,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1296898479
 GameObject:
   m_ObjectHideFlags: 0
@@ -8224,11 +8356,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1332152068}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.01, y: 0, z: 3.56}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 6.010001, y: 0, z: 3.56}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 15
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1332152070
 BoxCollider:
@@ -8303,6 +8435,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1348844715
 GameObject:
   m_ObjectHideFlags: 0
@@ -8330,11 +8463,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348844715}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.82, y: 0, z: 11.92}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 4.820001, y: 0, z: 11.920001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 54
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1348844717
 BoxCollider:
@@ -8422,11 +8555,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352287615}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.58, y: 0, z: 13.1}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 3.5800002, y: 0, z: 13.100002}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 52
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1352287617
 BoxCollider:
@@ -8501,6 +8634,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1369646307
 GameObject:
   m_ObjectHideFlags: 0
@@ -8530,10 +8664,10 @@ Transform:
   m_GameObject: {fileID: 1369646307}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 8.32}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 25
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1369646309
 BoxCollider:
@@ -8608,6 +8742,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1375031054
 GameObject:
   m_ObjectHideFlags: 0
@@ -8636,11 +8771,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375031054}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.82, y: 0, z: 5.94}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 4.820001, y: 0, z: 5.939999}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 35
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1375031056
 BoxCollider:
@@ -8715,6 +8850,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1375130587
 GameObject:
   m_ObjectHideFlags: 0
@@ -8743,11 +8879,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375130587}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.21, y: 0, z: 8.32}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 7.2100015, y: 0, z: 8.32}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 38
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1375130589
 BoxCollider:
@@ -8822,6 +8958,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1382037980
 GameObject:
   m_ObjectHideFlags: 0
@@ -8849,11 +8986,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1382037980}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 17.86}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 17.860003}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 70
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1382037982
 BoxCollider:
@@ -8941,10 +9078,10 @@ Transform:
   m_GameObject: {fileID: 1385945319}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 7.1400003}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 24
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1385945321
 BoxCollider:
@@ -9004,6 +9141,133 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385945319}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1387814416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1387814417}
+  - component: {fileID: 1387814418}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1387814417
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387814416}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1218219122}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1387814418
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387814416}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 5be3f45d566685045928df556f3f177d, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1393179740
 GameObject:
   m_ObjectHideFlags: 0
@@ -9031,11 +9295,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1393179740}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 15.48}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 15.480002}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 69
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1393179742
 BoxCollider:
@@ -9122,11 +9386,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397384653}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3899999, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 2.3899996, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 5
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1397384655
 BoxCollider:
@@ -9213,11 +9477,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406997807}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 0, z: 2.38}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 8.400002, y: 0, z: 2.3799992}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 20
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1406997809
 BoxCollider:
@@ -9455,11 +9719,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431794822}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.19, y: 0, z: 8.32}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 1.1899995, y: 0, z: 8.32}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 28
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1431794824
 BoxCollider:
@@ -9534,6 +9798,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1438123225
 GameObject:
   m_ObjectHideFlags: 0
@@ -9562,10 +9827,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1438123225}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1.18}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.1799976}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
+  m_Father: {fileID: 1921182725}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1438123227
@@ -9641,6 +9906,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1452845593
 GameObject:
   m_ObjectHideFlags: 0
@@ -9699,11 +9965,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460530133}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.19, y: 0, z: 15.48}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 1.1899985, y: 0, z: 15.480002}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 71
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1460530135
 BoxCollider:
@@ -9778,6 +10044,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1481472348
 GameObject:
   m_ObjectHideFlags: 0
@@ -9836,11 +10103,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520434901}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 0, z: 3.56}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 8.400002, y: 0, z: 3.5599995}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 21
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1520434903
 BoxCollider:
@@ -9915,6 +10182,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1547221542
 GameObject:
   m_ObjectHideFlags: 0
@@ -9973,11 +10241,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570833670}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.82, y: 0, z: 10.72}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 4.82, y: 0, z: 10.720001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 53
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1570833672
 BoxCollider:
@@ -10052,6 +10320,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1579868050
 GameObject:
   m_ObjectHideFlags: 0
@@ -10080,11 +10349,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1579868050}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.01, y: 0, z: 5.94}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 6.0100007, y: 0, z: 5.939999}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 36
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1579868052
 BoxCollider:
@@ -10159,6 +10428,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1586918621
 GameObject:
   m_ObjectHideFlags: 0
@@ -10187,11 +10457,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1586918621}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.58, y: 0, z: 10.72}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 3.5800004, y: 0, z: 10.720001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 50
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1586918623
 BoxCollider:
@@ -10266,6 +10536,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1598490162
 GameObject:
   m_ObjectHideFlags: 0
@@ -10294,11 +10565,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1598490162}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 0, z: 5.94}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 8.400002, y: 0, z: 5.939999}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 40
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1598490164
 BoxCollider:
@@ -10373,6 +10644,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1608437039
 GameObject:
   m_ObjectHideFlags: 0
@@ -10492,11 +10764,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1615876116}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.21, y: 0, z: 10.72}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 7.2100015, y: 0, z: 10.720001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 61
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1615876118
 BoxCollider:
@@ -10583,11 +10855,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1644280634}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3899999, y: 0, z: 7.1400003}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 2.3899996, y: 0, z: 7.1400003}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 30
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1644280636
 BoxCollider:
@@ -10675,11 +10947,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652598050}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.58, y: 0, z: 15.48}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 3.5800006, y: 0, z: 15.480002}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 75
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1652598052
 BoxCollider:
@@ -10754,6 +11026,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1668294121
 GameObject:
   m_ObjectHideFlags: 0
@@ -10781,11 +11054,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1668294121}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 0, z: 11.92}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 8.400002, y: 0, z: 11.920001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 66
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1668294123
 BoxCollider:
@@ -10873,11 +11146,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1670458050}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.39, y: 0, z: 17.86}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 2.3899996, y: 0, z: 17.860003}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 74
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1670458052
 BoxCollider:
@@ -10952,6 +11225,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1696243845
 GameObject:
   m_ObjectHideFlags: 0
@@ -10980,11 +11254,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1696243845}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.01, y: 0, z: 13.1}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 6.010001, y: 0, z: 13.100002}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 59
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1696243847
 BoxCollider:
@@ -11059,6 +11333,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1713558055
 GameObject:
   m_ObjectHideFlags: 0
@@ -11086,11 +11361,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713558055}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.21, y: 0, z: 11.92}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 7.2100015, y: 0, z: 11.920001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 62
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1713558057
 BoxCollider:
@@ -11178,11 +11453,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758726128}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 0, z: 16.68}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 8.400002, y: 0, z: 16.680002}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 84
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1758726130
 BoxCollider:
@@ -11257,6 +11532,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1780016053
 GameObject:
   m_ObjectHideFlags: 0
@@ -11285,11 +11561,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780016053}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3899999, y: 0, z: 1.18}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 2.3899996, y: 0, z: 1.179998}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 6
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1780016055
 BoxCollider:
@@ -11364,6 +11640,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1806584285
 GameObject:
   m_ObjectHideFlags: 0
@@ -11391,11 +11668,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806584285}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 16.68}
+  m_LocalPosition: {x: 0, y: 0, z: 16.680002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 86
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1806584287
 BoxCollider:
@@ -11483,11 +11760,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838014309}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.4, y: 0, z: 14.3}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 8.400002, y: 0, z: 14.300003}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 82
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1838014311
 BoxCollider:
@@ -11562,6 +11839,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1839590612
 GameObject:
   m_ObjectHideFlags: 0
@@ -11590,11 +11868,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1839590612}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.21, y: 0, z: 13.1}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 7.2100015, y: 0, z: 13.100002}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 63
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1839590614
 BoxCollider:
@@ -11669,6 +11947,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1845941934
 GameObject:
   m_ObjectHideFlags: 0
@@ -11697,11 +11976,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1845941934}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.39, y: 0, z: 13.1}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 2.3899992, y: 0, z: 13.100002}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 49
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1845941936
 BoxCollider:
@@ -11776,6 +12055,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1846396750
 GameObject:
   m_ObjectHideFlags: 0
@@ -11946,11 +12226,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1910727078}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.19, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 1.1899985, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 3
+  m_Father: {fileID: 577117380}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1910727080
 BoxCollider:
@@ -12068,11 +12348,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1916286042}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.21, y: 0, z: 3.56}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 7.2100015, y: 0, z: 3.5599995}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 18
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1916286044
 BoxCollider:
@@ -12147,6 +12427,105 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
+--- !u!1 &1921182724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1921182725}
+  m_Layer: 0
+  m_Name: ToBuild
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1921182725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921182724}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1438123226}
+  - {fileID: 1024258797}
+  - {fileID: 519358293}
+  - {fileID: 173054041}
+  - {fileID: 1780016054}
+  - {fileID: 479266572}
+  - {fileID: 328188188}
+  - {fileID: 120729357}
+  - {fileID: 661604155}
+  - {fileID: 327359255}
+  - {fileID: 1188328933}
+  - {fileID: 934924136}
+  - {fileID: 1332152069}
+  - {fileID: 1230623371}
+  - {fileID: 829675259}
+  - {fileID: 1916286043}
+  - {fileID: 1520434902}
+  - {fileID: 2011491842}
+  - {fileID: 349372016}
+  - {fileID: 1369646308}
+  - {fileID: 1986372927}
+  - {fileID: 1431794823}
+  - {fileID: 2101043092}
+  - {fileID: 1097438587}
+  - {fileID: 264816546}
+  - {fileID: 1944183851}
+  - {fileID: 1296113972}
+  - {fileID: 1375031055}
+  - {fileID: 1579868051}
+  - {fileID: 912284341}
+  - {fileID: 1375130588}
+  - {fileID: 1132740865}
+  - {fileID: 1598490163}
+  - {fileID: 450365097}
+  - {fileID: 493179586}
+  - {fileID: 698237864}
+  - {fileID: 870333852}
+  - {fileID: 927262914}
+  - {fileID: 937997384}
+  - {fileID: 927921836}
+  - {fileID: 1955980983}
+  - {fileID: 1845941935}
+  - {fileID: 1586918622}
+  - {fileID: 1215462750}
+  - {fileID: 1352287616}
+  - {fileID: 1570833671}
+  - {fileID: 1090637449}
+  - {fileID: 93823793}
+  - {fileID: 2087130463}
+  - {fileID: 1696243846}
+  - {fileID: 1839590613}
+  - {fileID: 186280335}
+  - {fileID: 870814969}
+  - {fileID: 1460530134}
+  - {fileID: 1075983122}
+  - {fileID: 1972514153}
+  - {fileID: 1670458051}
+  - {fileID: 1652598051}
+  - {fileID: 458230234}
+  - {fileID: 967870223}
+  - {fileID: 1009962432}
+  - {fileID: 335518287}
+  - {fileID: 408507576}
+  - {fileID: 1273971462}
+  - {fileID: 1838014310}
+  - {fileID: 1046304838}
+  - {fileID: 1758726129}
+  - {fileID: 835009884}
+  m_Father: {fileID: 386173595}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1944183850
 GameObject:
   m_ObjectHideFlags: 0
@@ -12175,11 +12554,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944183850}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.58, y: 0, z: 7.1400003}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 3.5799997, y: 0, z: 7.1400003}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 33
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1944183852
 BoxCollider:
@@ -12254,6 +12633,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1955980982
 GameObject:
   m_ObjectHideFlags: 0
@@ -12282,11 +12662,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955980982}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.39, y: 0, z: 11.92}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 2.3899992, y: 0, z: 11.920001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 48
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1955980984
 BoxCollider:
@@ -12361,6 +12741,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1972514152
 GameObject:
   m_ObjectHideFlags: 0
@@ -12389,11 +12770,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972514152}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.39, y: 0, z: 15.48}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 2.3899996, y: 0, z: 15.480002}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 73
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1972514154
 BoxCollider:
@@ -12468,6 +12849,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1986372926
 GameObject:
   m_ObjectHideFlags: 0
@@ -12496,11 +12878,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1986372926}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.19, y: 0, z: 5.94}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 1.1899991, y: 0, z: 5.939999}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 26
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1986372928
 BoxCollider:
@@ -12575,6 +12957,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &1998960817
 GameObject:
   m_ObjectHideFlags: 0
@@ -12633,11 +13016,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011491841}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 4.76}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 4.7599993}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 22
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2011491843
 BoxCollider:
@@ -12712,6 +13095,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &2060189216
 GameObject:
   m_ObjectHideFlags: 0
@@ -12789,11 +13173,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087130462}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.01, y: 0, z: 10.72}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 6.010001, y: 0, z: 10.720001}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 57
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2087130464
 BoxCollider:
@@ -12868,6 +13252,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &2098781935
 GameObject:
   m_ObjectHideFlags: 0
@@ -12926,11 +13311,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2101043091}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3899999, y: 0, z: 5.94}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalPosition: {x: 2.3899992, y: 0, z: 5.939999}
+  m_LocalScale: {x: 1, y: 0.49999994, z: 1}
   m_Children: []
-  m_Father: {fileID: 386173595}
-  m_RootOrder: 29
+  m_Father: {fileID: 1921182725}
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2101043093
 BoxCollider:
@@ -13005,6 +13390,7 @@ MonoBehaviour:
   color1: {r: 0.50489664, g: 0.6792453, b: 0.23389105, a: 0.5019608}
   cannotBuildThere: {fileID: 530409669}
   noTurretSelected: {fileID: 835860028}
+  turretSet: {fileID: 558590518}
 --- !u!1 &2117777407
 GameObject:
   m_ObjectHideFlags: 0

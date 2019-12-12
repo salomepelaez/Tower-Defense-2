@@ -13,6 +13,8 @@ public class Nodes : MonoBehaviour
 
     public TextMeshProUGUI cannotBuildThere;
     public TextMeshProUGUI noTurretSelected;
+
+    public AudioSource turretSet;
     
     private void OnMouseEnter()
     {
@@ -44,6 +46,7 @@ public class Nodes : MonoBehaviour
         GameObject iTurret = BuildManager.instance.GetTurretToBuild();
         turret = Instantiate(iTurret, pos, transform.rotation);
         BuildManager.instance.SetTurret(null);
+        turretSet.Play();
     }
 
     IEnumerator CannotBuild()
