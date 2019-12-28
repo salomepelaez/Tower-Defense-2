@@ -8,7 +8,7 @@ public class Jellyfish : Enemy
     void Start()
     {
         target = EnemyBehaviour.points[0];
-        life = 2;
+        life = 3;
         speed = 2f;
     }
 

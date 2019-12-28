@@ -35,6 +35,9 @@ public class Manager : MonoBehaviour
         {
             inGame = false;
             winner = true;
+
+            gameOver.text = "You win!";
+
             music.Stop();
         }
     }

@@ -8,7 +8,7 @@ public class Turtle : Enemy
     void Start()
     {
         target = EnemyBehaviour.points[0];
-        life = 10;
+        life = 20;
         speed = 0.1f;
     }
 
